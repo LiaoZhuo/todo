@@ -1,4 +1,3 @@
-import java.util.HashMap.Entry;
 import java.util.Map.Entry
 def configFile = file("$rootDir/gradle/config/buildConfig.groovy")
 def env = project.hasProperty('env') ? project.getProperty('env') : 'test'
