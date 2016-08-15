@@ -1,3 +1,4 @@
+import java.util.Map.Entry
 def configFile = file("$rootDir/gradle/config/buildConfig.groovy")
 def env = project.hasProperty('env') ? project.getProperty('env') : 'test'
 logger.quiet "Loading configuration for environment '$env'."
